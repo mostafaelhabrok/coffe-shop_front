@@ -16,6 +16,7 @@ app.use(cors());
 // Initialize the main project folder
 app.use(express.static('www'));
 
+//var path = require('path');
 
 // Setup Server
 
@@ -26,3 +27,13 @@ function listening(){
     console.log("server running"); 
     console.log('running on localhost: '+port);
 }
+
+//Get Data
+/* app.get('/tabs/drink-menu', function (request, response) {
+
+    response.sendFile(path.join(__dirname, '/src/index.html'))
+  });
+
+app.get('/tabs/user-page', function (request, response) {
+    response.sendFile('/src/app/pages/user-page/user-page.page.html')
+  }); */
