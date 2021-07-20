@@ -1,1 +1,1 @@
-web: node server.js
+web: npm rebuild node-sass; node server.js
