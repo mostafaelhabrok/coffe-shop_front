@@ -43,6 +43,7 @@ export class DrinkFormComponent implements OnInit {
 
   closeModal() {
     this.modalCtrl.dismiss();
+    location.href = "https://coffe-shop-front-1.herokuapp.com/"
   }
 
   saveClicked() {
